@@ -13,6 +13,8 @@
 		EC56A9D41EA3EC7E00AB374F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC56A9D21EA3EC7E00AB374F /* Main.storyboard */; };
 		EC56A9D61EA3EC7E00AB374F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC56A9D51EA3EC7E00AB374F /* Assets.xcassets */; };
 		EC56A9D91EA3EC7E00AB374F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC56A9D71EA3EC7E00AB374F /* LaunchScreen.storyboard */; };
+		EC56A9E51EA3F34A00AB374F /* Gun.m in Sources */ = {isa = PBXBuildFile; fileRef = EC56A9E41EA3F34A00AB374F /* Gun.m */; };
+		EC56A9E81EA3FDDC00AB374F /* Bullet.m in Sources */ = {isa = PBXBuildFile; fileRef = EC56A9E71EA3FDDC00AB374F /* Bullet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		EC56A9D51EA3EC7E00AB374F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC56A9D81EA3EC7E00AB374F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC56A9DA1EA3EC7E00AB374F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC56A9E31EA3F34A00AB374F /* Gun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gun.h; sourceTree = "<group>"; };
+		EC56A9E41EA3F34A00AB374F /* Gun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gun.m; sourceTree = "<group>"; };
+		EC56A9E61EA3FDDC00AB374F /* Bullet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bullet.h; sourceTree = "<group>"; };
+		EC56A9E71EA3FDDC00AB374F /* Bullet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bullet.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				EC56A9CD1EA3EC7E00AB374F /* AppDelegate.m */,
 				EC56A9CF1EA3EC7E00AB374F /* ViewController.h */,
 				EC56A9D01EA3EC7E00AB374F /* ViewController.m */,
+				EC56A9E31EA3F34A00AB374F /* Gun.h */,
+				EC56A9E41EA3F34A00AB374F /* Gun.m */,
+				EC56A9E61EA3FDDC00AB374F /* Bullet.h */,
+				EC56A9E71EA3FDDC00AB374F /* Bullet.m */,
 				EC56A9D21EA3EC7E00AB374F /* Main.storyboard */,
 				EC56A9D51EA3EC7E00AB374F /* Assets.xcassets */,
 				EC56A9D71EA3EC7E00AB374F /* LaunchScreen.storyboard */,
@@ -151,8 +161,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC56A9E81EA3FDDC00AB374F /* Bullet.m in Sources */,
 				EC56A9D11EA3EC7E00AB374F /* ViewController.m in Sources */,
 				EC56A9CE1EA3EC7E00AB374F /* AppDelegate.m in Sources */,
+				EC56A9E51EA3F34A00AB374F /* Gun.m in Sources */,
 				EC56A9CB1EA3EC7E00AB374F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
